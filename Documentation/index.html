@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Proloy - Personal Portfolio/CV HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+        html,
+        body {
+            background-color: #FFFFFF;
+            color: #383838;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #383838;
+        }
+
+        section table {
+            background-color: #FFFFFF;
+        }
+
+        ::-moz-selection {
+            background: #444444;
+            color: #DDDDDD;
+        }
+
+        ::selection {
+            background: #444444;
+            color: #DDDDDD;
+        }
+
+        a.brand {
+            background-image: url(assets/images/image_1.png);
+        }
+
+        a,
+        a:hover,
+        a:active {
+            color: #0000FF;
+        }
+
+        hr {
+            border-top: 1px solid #EBEBEB;
+            border-bottom: 1px solid #FFFFFF;
+        }
+
+        div.navbar-inner,
+        .navbar .nav li ul {
+            background: #DDDDDD;
+            color: #222222;
+            width: 100%;
+        }
+
+        a.btn-navbar {
+            background: #DDDDDD;
+            color: #222222;
+        }
+
+        .navbar .nav li a {
+            color: #222222;
+            text-shadow: 1px 1px 0px #EEEEEE;
+        }
+
+        .navbar .nav li a:hover,
+        .navbar .nav li.active a {
+            text-shadow: none;
+        }
+
+        div.navbar-inner ul {}
+
+        .navbar .nav>li a {
+            color: #444444;
+        }
+
+        .navbar .nav>li a:hover,
+        a.btn-navbar:hover {
+            background: #444444;
+            color: #DDDDDD;
+        }
+
+        .navbar .nav .active>a,
+        .navbar .nav .active>a:hover,
+        a.btn-navbar:active {
+            background-color: #444444;
+            color: #DDDDDD;
+        }
+
+        .navbar .nav li ul li a:hover {
+            background: #444444;
+            color: #DDDDDD;
+        }
+
+        .navbar .nav li ul li a:active {
+            background: #444444;
+            color: #DDDDDD;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            transition: all 0.3s ease-out 0s;
+        }
+
+        ul.available-version {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.available-version li {
+            list-style: none;
+            margin: 0 7px;
+        }
+
+        .btn-primary {
+            background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+            background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+            background-image: linear-gradient(top, #0088CC, #0044CC);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+            border-color: #0044CC #0044CC #bfbfbf;
+            color: #FFFFFF;
+        }
+
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary.active,
+        .btn-primary.disabled,
+        .btn-primary[disabled] {
+            background-color: #0044CC;
+        }
+
+        #documenter_copyright {
+            display: block !important;
+            visibility: visible !important;
+        }
+
+        #theme_options2 img {
+            border: 1px solid #eee;
+            margin: 10px 0;
+            max-width: 100%;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body class="documenter-project-Reale Aste-" data-spy="scroll" id="top">
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><b class="text-danger">P</b>roloy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-bg-dark" href="#theme_installation"
+                            title="Theme Installation">Template Installation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reading_setting" title="Page Included in Nimis">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fonts" title="Fonts">Fonts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#theme_options" title="Source File (CSS)">Source File (CSS)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#theme_options1" title="Source File (JS)">Source File (JS)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#theme_options2" title="Customize">Customization</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#thanks" title="Thanks">Thanks</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Main Container Beginning -->
+    <div class="container" id="documenter_content">
+        <div id="documenter-cover">
+            <div class="masthead text-center">
+                <h1 class="text-success">Proloy - Personal Portfolio/CV HTML Template</h1>
+                <h1>created: <span class="badge bg-danger">16/05/2023</span></h1>
+                <p class="download-info"> <a href="#" class="btn btn-large">24/7 Support: Send Us a message from our
+                        profile</a> </p>
+            </div>
+            <!-- masthead -->
+            <div id="intro">
+                <p class="highlight hero-unit">Thank you for purchasing my template. If you have any questions that are
+                    beyond the scope of this help file, please feel free to open a new ticket at our <a
+                        href="https://themeforest.net/user/theme_group" target="_blank">support forum</a></p>
+            </div>
+            <!-- intro -->
+        </div>
+
+        <!-- advertisement start -->
+        <div class="template-addvertise-ment-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="available-version d-flex align-items-center">
+                            <li><a
+                                    href="https://themeforest.net/item/proloy-personal-portfoliocv-html-template/45506689"><img
+                                        src="assets/img/html.jpg" alt="html"></a></li>
+                            <li><a
+                                    href="https://themeforest.net/item/proloy-personal-portfoliocv-psd-template/43817912"><img
+                                        src="assets/img/psd.jpg" alt="psd"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- advertisement end -->
+
+        <section id="theme_installation">
+            <div class="page-header">
+                <h3>Template Installation</h3>
+                <hr class="notop">
+            </div>
+            <ol>
+                <li>
+                    <h5>FTP Upload:</h5>
+                    <ul>
+                        <li>Open up your FTP manager and connect to your hosting</li>
+                        <li>Browse to required directory (Normally public_html)</li>
+                        <li>Upload the files inside <strong>proloy_html</strong> folder.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section id="reading_setting">
+            <div class="page-header">
+                <h3>Pages</h3>
+                <hr class="notop">
+                <ol>
+                    <ul>
+                        <li>index.html</li>
+                    </ul>
+                </ol>
+            </div>
+        </section>
+
+        <section id="fonts">
+            <div class="page-header">
+                <h3>Fonts</h3>
+                <hr class="notop">
+            </div>
+            <pre>
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap');</pre>
+        </section>
+
+        <section id="theme_options">
+            <div class="page-header">
+                <h3>Source File (CSS)</h3>
+                <hr class="notop">
+            </div>
+            <pre>
+			&lt;!-- css here --&gt;
+             &lt;link rel="stylesheet" href="assets/css/fontawesome-all.min.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/owl.theme.default.min.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/owl.carousel.min.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/magnific-popup.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/bootstrap.min.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/progressbar.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/meanmenu.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/default.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/widget.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/btn.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/aos.css&gt;
+             &lt;link rel="stylesheet" href="style.css&gt;
+             &lt;link rel="stylesheet" href="assets/css/responsive.css&gt;
+			</pre>
+            </pre>
+        </section>
+
+        <section id="theme_options1">
+            <div class="page-header">
+                <h3>Source File (JS)</h3>
+                <hr class="notop">
+            </div>
+            <pre>
+				&lt;!-- js here --&gt;
+            &lt;script src="assets/js/jquery-3.7.0.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/popper.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/bootstrap.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/magnific-popup.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/owl.carousel.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/scrolltop.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/aos.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/parallax-scroll.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/tilt.jquery.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/ajax-form.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/isotope.pkgd.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/imagesloaded.pkgd.min.js"&gt;&lt;/script&gt;
+            &lt;script src='assets/js/cells-by-row.js'&gt;&lt;/script&gt;
+            &lt;script src="assets/js/progressbar.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/magic_mouse-1.2.1.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/scrollIt.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/meanmenu.min.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/maps.active.js"&gt;&lt;/script&gt;
+            &lt;script src="assets/js/main.js"&gt;&lt;/script&gt;
+		</pre>
+        </section>
+
+        <section id="theme_options2">
+            <div class="page-header">
+                <h3>Customization</h3>
+                <hr class="notop">
+            </div>
+            <h4>How to Change Logo</h4>
+            <img src="assets/img/logo.png" alt="">
+            <h4>How to Change Copyright</h4>
+            <img src="assets/img/copyright.png" alt="">
+            <h4>How to Change e-mail</h4>
+            <img src="assets/img/contact.png" alt="">
+            <h4>How to Change google map api key</h4>
+            <img src="assets/img/google-map.png" alt="">
+        </section>
+
+        <section id="css_stucture"
+            style="padding-top: 70px; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">
+            <div class="page-header"
+                style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;">
+                &nbsp;</div>
+        </section>
+
+        <section id="thanks">
+            <div class="page-header">
+                <h3>Thanks</h3>
+                <hr class="notop">
+            </div>
+            <h4 id="thanks_span_style"
+                margin_0px_padding_0px_border_0px_outline_0px_font_weight_700_font_style_inherit_font_family_inherit_vertical_align_baseline "once_again_thankyou_for_for_purchasing_one_of_our_theme_span">
+                <span
+                    style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Once
+                    again thank you for purchasing one of our Templates</span>
+            </h4>
+            <h2
+                style="margin: 0px 0px 18px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 20px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+                Best Regards</h2>
+            <h3
+                style="margin: 18px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 26px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+                (theme_group)</h3>
+        </section>
+        <hr />
+        <img src="https://demo.workertm.com/Advertise/available2.jpg" alt="img">
+        <footer>
+            <p>Copyright (theme_group) made with the <a href="https://workertm.com">Documenter v1.0</a></p>
+        </footer>
+    </div>
+    <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script>
+        document.createElement('section'); var duration = '500', easing = 'swing';
+    </script>
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+</body>
+
+</html>

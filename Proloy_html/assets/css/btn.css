@@ -1,0 +1,226 @@
+.btn-1 {
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+    background: #ff4a54;
+    box-shadow: 0px 0px 30px 0px rgba(255, 74, 84, 0.3);
+    transition: all .3s;
+}
+.btn-1 i {
+    margin-left: 3px;
+}
+
+.btn-1:hover {
+    color: #fff;
+    background: #0c1239;
+    box-shadow: 0px 0px 30px 0px rgba(12, 18, 57, 0.3);
+}
+
+.btn-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    transition: all .3s;
+    background: #ff4a54;
+}
+
+.btn-2 span {}
+
+.btn-2 span svg {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    fill: #fff;
+}
+
+.btn-2:after {
+    position: absolute;
+    content: '';
+    left: -5px;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 1px solid #595959;
+    transition: all .3s;
+    box-shadow: 0px 0px 30px 0px rgba(255, 74, 84, 0.3);
+}
+.btn-2:hover{
+    background: #ff4a54;
+}
+.btn-2:hover:after {
+    content: '';
+    border: 1px solid #ff5100;
+}
+.btn-3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px 40px;
+    background: #323232;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.3);
+    transition: all .3s;
+}
+
+.btn-3 span {
+    margin-left: 5px;
+}
+
+.btn-3 span svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+    transition: all .3s;
+}
+
+.btn-3:hover {
+    background-color: #ff4a54;
+    color: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(255, 74, 84, 0.3);
+}
+
+.btn-3:hover svg {
+    transform: rotate(-45deg);
+    fill: #fff;
+}
+
+.btn-4 {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.btn-4 i {
+    color: #00ce7d;
+}
+/* btnIconRipple animation */
+
+@keyframes btnIconRipple {
+    0% {
+        border-width: 4px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    80% {
+        border-width: 1px;
+        -webkit-transform: scale(1.35);
+        transform: scale(1.35);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes btnIconRipple {
+    0% {
+        border-width: 4px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    80% {
+        border-width: 1px;
+        -webkit-transform: scale(1.35);
+        transform: scale(1.35);
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* scroll top area css */
+
+.progress-wrap {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 20%);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.progress-wrap::after {
+    position: absolute;
+    content: "↑";
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    color: #0e121d;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.progress-wrap:hover::after {
+    opacity: 0;
+}
+
+.progress-wrap::before {
+    position: absolute;
+    content: "↑";
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    opacity: 0;
+    background-image: linear-gradient(298deg, #da2c4d, #f8ab37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+.progress-wrap:hover::before {
+    opacity: 1;
+}
+
+.progress-wrap svg path {
+    fill: none;
+}
+
+.progress-wrap svg.progress-circle path {
+    stroke: #ff5100;
+    stroke-width: 4;
+    box-sizing: border-box;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
