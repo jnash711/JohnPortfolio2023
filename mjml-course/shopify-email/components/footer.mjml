@@ -1,0 +1,46 @@
+<mj-wrapper css-class="footer" padding="0px">
+  <mj-section padding="0">
+    <mj-group css-class="icons-size">
+      <mj-column padding="0">
+        <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://facebook.com" src="https://i.postimg.cc/d705Y15H/fb.png/" alt="facebook">
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://twitter.com" src="https://i.postimg.cc/DSxcBh7q/tw.png" alt="twitter">
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://Instagram.com" src="https://i.postimg.cc/CBBJR2Tb/insta.png" alt="Instagram">
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://snapchat.com" src="https://i.postimg.cc/d7Djff0g/snap.png" alt="facebook">
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://linkedin.com" src="https://i.postimg.cc/rdYQFkb8/in.png" alt="facebook">
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://pinterest.com" src="https://i.postimg.cc/87pHRcgp/pin.png" alt="facebook">
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://youtube.com" src="https://i.postimg.cc/94SYHBR0/yt.png" alt="facebook">
+      </mj-column>
+    </mj-group>
+  </mj-section>
+  <mj-section>
+    <mj-column padding="20px 0px 0px">
+      <mj-text font-size="10px" align="center"> &copy;
+        Shopify, 151 O'Connor Street, Ground floor, Ottawa ON, K2P 2L8
+      </mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-section padding="0px 0px 60px">
+    <mj-column padding="0">
+      <mj-text font-size="10px" align="center">
+        <a href="#" class="footer-links">
+          Unsubscribe
+        </a> |
+        <a href="#" class="footer-links">
+          Manage Your Email Preferences
+        </a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+</mj-wrapper>

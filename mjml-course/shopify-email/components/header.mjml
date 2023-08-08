@@ -1,0 +1,8 @@
+<mj-raw>
+  <!--header-->
+</mj-raw>
+<mj-section css-class="header">
+  <mj-column>
+    <mj-image width="121px" href="https://shopify.com" alt="shopify logo" align="left" src="https://i.postimg.cc/sQkm7Jsq/logo.png">
+  </mj-column>
+</mj-section>

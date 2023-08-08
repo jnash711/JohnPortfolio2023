@@ -1,0 +1,146 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .header {
+        background-color: #004c3f;
+
+      }
+
+      .section-padding {
+        padding-left: 30px;
+        s padding-right: 30px;
+      }
+
+      .footer {
+        background-image: url('https://i.postimg.cc/3k1tVpF0/bg-colors.png');
+        background-size: 600px;
+      }
+
+      .icons-size {
+        max-width: 280px;
+        padding: 40px 0 30px;
+      }
+
+      .content-background {
+        background-color: #ffffff;
+      }
+
+      .footer-links {
+        color: #7FFF00;
+        text-decoration: none;
+      }
+
+      .footer-links:hover {
+        color: #004c3f;
+        text-decoration: none;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-section css-class="content-background" padding="0">
+      <mj-include path="./components/header.mjml">
+        <mj-section>
+          <mj-column padding="20px 0 30px 0">
+            <mj-text css-class="header-title" color="#004c3f" font-size="30px" font-weight="bold">Whats New</mj-text>
+            <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal"> July 15, 2022</mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-raw>
+          <!--3-line-->
+        </mj-raw>
+        <mj-include path="./components/3-lines.mjml">
+          <!--2 Column Image with thext-->
+          <mj-section>
+            <mj-column>
+              <mj-image href="https://shopify.com/blog" src="https://i.postimg.cc/ctfmm8JH/image.jpg">
+            </mj-column>
+            <mj-column>
+              <mj-text color="#004c3f" font-size="24px" font-weight="bold" padding-bottom="20px">
+                <a css-class="trynna-fix" href="https://shopify.com/blog">Find More ways to sell with pre-orders</a>
+              </mj-text>
+              <mj-text>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis quis mauris sed finibus. Donec aliquam, diam et dictum sodales, quam ipsum volutpat mi. Donec aliquam, diam et dictum sodales,
+              </mj-text>
+              <mj-text>
+                Learn More
+              </mj-text>
+              <mj-text>
+              </mj-text>
+            </mj-column>
+          </mj-section>
+          <mj-include path="./components/3-lines.mjml">
+            <mj-section padding="40px 40px 20px 40px">
+              <mj-column>
+                <mj-text align="center" font-size="20px" font-weight="bold" line-height="20px" color="#212b35">
+                  Running a business like yours isn't a desk job.
+                  Keep it from becoming one with the Shopify app.
+                </mj-text>
+              </mj-column>
+            </mj-section>
+            <mj-section padding="0">
+              <mj-group>
+                <mj-column padding="0">
+                  <mj-image padding="0 5px" align="right" href="https://apple.com" src="https://i.postimg.cc/BP5TD9hP/appstore.png" width="150px" height="43px">
+                </mj-column>
+                <mj-column padding="0">
+                  <mj-image padding="0 5px" align="left" href="https://apple.com" src="https://i.postimg.cc/BP5TD9hP/android.png" width="150px" height="43px">
+                </mj-column>
+              </mj-group>
+            </mj-section>
+
+
+            <mj-include path="./components/footer.mjml">
+    </mj-section>
+  </mj-body>
+  </mjmj>
+  <!-- <mj-wrapper css-class="footer" padding="0px 40px">
+              <mj-section padding="0">
+                <mj-group css-class="icons-size">
+                  <mj-column padding="0">
+                    <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://facebook.com" src="https://i.postimg.cc/d705Y15H/fb.png/" alt="facebook">
+                  </mj-column>
+                  <mj-column padding="0">
+                    <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://twitter.com" src="https://i.postimg.cc/DSxcBh7q/tw.png" alt="twitter">
+                  </mj-column>
+                  <mj-column padding="0">
+                    <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://Instagram.com" src="https://i.postimg.cc/CBBJR2Tb/insta.png" alt="Instagram">
+                  </mj-column>
+                  <mj-column padding="0">
+                    <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://snapchat.com" src="https://i.postimg.cc/d7Djff0g/snap.png" alt="facebook">
+                  </mj-column>
+                  <mj-column padding="0">
+                    <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://linkedin.com" src="https://i.postimg.cc/rdYQFkb8/in.png" alt="facebook">
+                  </mj-column>
+                  <mj-column padding="0">
+                    <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://pinterest.com" src="https://i.postimg.cc/87pHRcgp/pin.png" alt="facebook">
+                  </mj-column>
+                  <mj-column padding="0">
+                    <mj-image width="27px" height="27px" border-radius="50%" padding="0 5px" href="https://youtube.com" src="https://i.postimg.cc/94SYHBR0/yt.png" alt="facebook">
+                  </mj-column>
+                </mj-group>
+              </mj-section>
+              <mj-section padding="20px 0px 0px">
+                <mj-column padding="0">
+                  <mj-text font-size="10px" align="center"> &copy;
+                    Shopify, 151 O'Connor Street, Ground floor, Ottawa ON, K2P 2L8
+                  </mj-text>
+                </mj-column>
+              </mj-section>
+              <mj-section padding="0px 0px 60px">
+                <mj-column padding="0">
+                  <mj-text font-size="10px" align="center">
+                    <a href="#" class="footer-links">
+                      Unsubscribe
+                    </a> |
+                    <a href="#" class="footer-links">
+                      Manage Your Email Preferences
+                    </a>
+                  </mj-text>
+                </mj-column>
+              </mj-section>
+            </mj-wrapper> -->

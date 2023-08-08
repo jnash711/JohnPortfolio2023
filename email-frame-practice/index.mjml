@@ -1,0 +1,113 @@
+<mjml>
+  <mj-head>
+    <mj-style inline="inline">
+      * {
+        box-sizing: border-box;
+      }
+
+      .nba-pic-head {
+        padding: 0 25px 0px 25px;
+        height: 400px;
+      }
+
+      .nba-footer {
+        height: 20px;
+      }
+
+      .main {
+        background: white;
+      }
+
+      .text-beside-tatum {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .link {
+        color: blue;
+        font-size: 0.8rem;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body css-class="main">
+    <mj-section css-class="nba-pic-head">
+      <mj-include path="./components/email-header.mjml">
+        <mj-divider>
+        </mj-divider>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="40px">
+          Order Confirmation !
+        </mj-text>
+        <mj-text>
+          August 10, 2023
+        </mj-text>
+        <mj-divider>
+        </mj-divider>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-text>
+          Description
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="right">
+          Your Price
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-include path="./components/dotted-break.mjml">
+    </mj-section>
+    <mj-section>
+      <mj-column padding="0px 0px 25px 0px">
+        <mj-text padding="0" align="center" font-size="21px">
+          NBA League PASS Premium
+        </mj-text>
+      </mj-column>
+      <mj-column align="right" padding="0">
+        <mj-text font-size="21px" align="right">
+          $ 16.99 / monthly
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-divider width="600px">
+    </mj-divider>
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://img.asmedia.epimg.net/resizer/YjpAKJ7UuA24gvl3osHWMg1dJ4I=/1472x828/filters:focal(511x131:521x141)/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/P3LBSBNAFFF5RJUYXJFS7LOINM.jpg">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="1.2rem" align="center">
+          Thank you for subscribing to NBA League Pass!
+        </mj-text>
+        <mj-text align="center" font-size="0.9rem">
+          Details about your subscription can be found here
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="link" align="center">
+          View Subscription
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text css-class="link" align="center">
+          Unsubscribe fron NBA League Pass
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="nba-footer">
+      <mj-include path="./components/nba-footer.mjml">
+    </mj-section>
+
+  </mj-body>
+</mjml>

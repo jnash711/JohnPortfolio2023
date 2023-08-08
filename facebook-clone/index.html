@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="css/font5/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-section">
+            <div class="header__logo-icon">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="header__logo-search">
+                <i class="fas fa-search"></i> 
+                <input type="text">
+            </div>
+            <div class="header__mobile-button">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="header__menu-tabs">
+            <div class="header__menu-tab header__menu-tab-active">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="header__menu-tab ">
+                <i class="fas fa-flag">
+                    <div class="header__notification-bubble">3</div>
+                </i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-tv">
+                    <div class="header__notification-bubble">
+                        9
+                    </div>
+                </i>
+            </div>
+            <div class="header__menu-tab ">
+                <i class="fas fa-store"></i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+        <div class="header__account">
+            <div class="header__actions">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="header__user-img">
+                <span class="header__user-name">Joseph Marva</span>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fab fa-facebook-messenger"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-plus"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-bell"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-sort-down"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="content-area content-area--feed">
+        <section class="sidenav">
+            <div class="sidenav__item">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="sidenav__item-img">
+                <span class="sidenav__item-title">Joseph Marva</span>
+            </div>
+            <div class="sidenav__item">
+               <div class="sidenav__item-icon">
+                <i class="fas fa-user-friends"></i>
+               </div>
+                <span class="sidenav__item-title">Friends</span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                 <i class="fas fa-flag"></i>
+                </div>
+                 <span class="sidenav__item-title">
+                    Pages
+                    <span class="sidenav__item-notification">
+                        <div class="sidenav__item-notification-circle">
+                        </div>9+ new
+                    </span>
+                </span>
+             </div>
+             <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle">
+                 <i class="fas fa-users"></i>
+                </div>
+                 <span class="sidenav__item-title">
+                    Groups
+                    <span class="sidenav__item-notification">
+                        <div class="sidenav__item-notification-circle">
+                        </div>3+ new
+                    </span>
+                </span>
+             </div>
+             <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon-circle">
+                 <i class="fas fa-store"></i>
+                </div>
+                 <span class="sidenav__item-title">Marketplace</span>
+             </div>
+             <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                 <i class="fas fa-chevron-down sidenav__item-icon--circle-white"></i>
+                </div>
+                 <span class="sidenav__item-title">See More</span>
+             </div>
+             <div class="sidenav__line">
+             </div>
+             <span class="sidenav__heading-title">
+                Your Shortcuts
+             </span>
+             <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle">
+                 <i class="fas fa-user-friends"></i>
+                </div>
+                 <span class="sidenav__item-title">Coding Phase Groups</span>
+             </div>
+             <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle">
+                 <i class="fas fa-user-friends"></i>
+                </div>
+                 <span class="sidenav__item-title">Coding Phase Groups</span>
+             </div>
+             <div class="sidenav__item">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="sidenav__item-img">
+                <span class="sidenav__item-title">Coding Phase Goat</span>
+            </div>
+            <div class="sidenav__item">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="sidenav__item-img">
+                <span class="sidenav__item-title">Joseph Marva</span>
+            </div>
+            <div class="sidenav__item">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="sidenav__item-img">
+                <span class="sidenav__item-title">Joseph Marva</span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                 <i class="fas fa-chevron-down sidenav__item-icon--circle-white"></i>
+                </div>
+                 <span class="sidenav__item-title">See More</span>
+             </div>
+        </section>
+        <section class="feed">
+            <div class="stories">
+                <div class="stories__video-container">
+                    <img src="https://i.ytimg.com/vi/NlKamRgzIdk/maxresdefault.jpg" alt="" class="stories__background">
+                    <div class="stories__title">
+                        <div class="stories__new-btn">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        Create a Story
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://i.ytimg.com/vi/aE4UNGlu-Ak/hqdefault.jpg" alt="" class="stories__background">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="" class="stories__user">
+                        Jenny Juuko III.
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT0TD24twFJzBcFvuekSEiDUn4kmdqV64qcQ&usqp=CAU" alt="" class="stories__background">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="" class="stories__user">
+                        Oscar D. Hoya
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://www.si.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk3MTkzMTIxMTExNDgzNDc1/lebron-james.jpg" alt="" class="stories__background">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/men/23.jpg" alt="" class="stories__user">
+                        Real Goat James
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://nyfights.com/wp-content/uploads/2021/09/F5BCEAEE-2F46-4371-A98A-D7A4398E23E9.jpeg" alt="" class="stories__background">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="" class="stories__user">
+                        TBE Goat Mayweather
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img src="https://i.pinimg.com/originals/4a/93/59/4a9359c4daffe7e85a92e3dca4f29fca.jpg" alt="" class="stories__background">
+                    <div class="stories__title">
+                        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="" class="stories__user">
+                        Lady <br>Gaga
+                    </div>
+                </div>
+            </div>
+            <div class="feed__box submitpost">
+                <div class="newpost">
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="newpost__user-img">
+                    <input type="text" placeholder="What's on your mind, bruv?">
+                </div>
+                <div class="hline"></div>
+                <div class="post-types">
+                    <div class="post-types__item">
+                        <i class="fas fa-video"></i><span class="post-types__title">Live Video</span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-photo-video"></i><span class="post-types__title">Photo Video</span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-laugh-beam"></i><span class="post-types__title">Feeling / Activity</span>
+                    </div>
+                </div>
+            </div>
+            <div class="feed__box photopost">
+                <div class="photopost__info">
+                    <div class="photopost__left">
+                        <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="">
+                        <div class="photopost__details">
+                            <span class="photopost__name">Jenny Juuko III</span>
+                            <span class="photopost__date">December 17 at 10:45pm <i class="fas fa-user-friends"></i></span>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="photopost__description">
+                   Hey Just the Goat being the Goat
+                </div>
+                <div class="photopost__image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKeTFfATzlXDoMx8ZipYg7QQTliBPxSD6zW9Hlnbueb1UUORHHUxDHFXKJtnqIGLm9q8&usqp=CAU" alt="">
+                </div>
+                <div class="photopost__stats">
+                    <div class="photopost__stats-emojis">
+                        <div class="emoji-circle emoji-circle--blue">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--red">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--yellow">
+                            <i class="fas fa-surprise"></i>
+                        </div>
+                        3.3k
+                    </div>
+                    <div class="photopost__stats-share">
+                        788 comments 99 Shares
+                    </div>
+                </div>
+                <div class="hline"></div>
+                    <div class="photopost__actions">
+                       <a href="#" class="photopost__link">
+                        <i class="fas fa-thumbs-up"></i>Like
+                       </a>
+                       <a href="#" class="photopost__link">
+                        <i class="fas fa-comment"></i>Comment
+                       </a>
+                       <a href="#" class="photopost__link">
+                        <i class="fas fa-share"></i>Share
+                       </a>
+                    </div>
+                <div class="hline"></div>
+             </div>
+         </div>
+        </section>
+    </section>
+    <section class="floatingmsg"> 
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/women/14.jpg" alt="">
+            <div class="floatingmsg__notification">
+                1
+            </div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/women/54.jpg" alt="">
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/women/64.jpg" alt="">
+            <div class="floatingmsg__notification">
+                3
+            </div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="">
+            <div class="floatingmsg__notification">
+                2
+            </div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="">
+            <div class="floatingmsg__notification">
+                1
+            </div>
+        </div>
+        <div class="floatingmsg__bubble">
+            <i class="fas fa-edit"></i>
+        </div>
+    </section>
+</body>
+</html>
