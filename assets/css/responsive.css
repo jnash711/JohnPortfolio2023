@@ -1,477 +1,483 @@
 /* Latop Device :1200px. */
-@media (min-width: 1200px) and (max-width: 1320px) {}
+@media (min-width: 1200px) and (max-width: 1320px) {
+}
 
 /* LG  Device :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
-    .section-image {
-        right: 10%;
-    }
+  .section-image {
+    right: 10%;
+  }
 
-    .proloy-hero-content-wrape h1 {
-        font-size: 85px;
-    }
+  .proloy-hero-content-wrape h1 {
+    font-size: 85px;
+  }
 
-    ul.hero-personal-info-wrape {
-        left: 30px;
-    }
+  ul.hero-personal-info-wrape {
+    left: 30px;
+  }
 
-    .proloy-language-wrape {
-        padding-right: 70px;
-    }
+  .proloy-language-wrape {
+    padding-right: 70px;
+  }
 
-    .proloy-about-progress-wrape {
-        margin-top: 30px;
-    }
+  .proloy-about-progress-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-work-education-resume-bg-img2 {
-        width: 95%;
-    }
+  .proloy-work-education-resume-bg-img2 {
+    width: 95%;
+  }
 
-    .single-portfolio-item {
-        height: 320px;
-    }
+  .single-portfolio-item {
+    height: 320px;
+  }
 
-    .video-content {
-        left: 10%;
-        right: 10%;
-    }
+  .video-content {
+    left: 10%;
+    right: 10%;
+  }
 
-    .popup-video {
-        height: 100px;
-        width: 100px;
-        font-size: 40px;
-        line-height: 100px;
-        margin-top: 30px;
-    }
+  .popup-video {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    margin-top: 30px;
+  }
 
-    #proloy-map {
-        z-index: 0;
-    }
+  #proloy-map {
+    z-index: 0;
+  }
 
-    .proloy-all-blog-list-wrape {
-        margin-top: 30px;
-    }
+  .proloy-all-blog-list-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-contact-form-area {
-        margin-top: 30px;
-    }
+  .proloy-contact-form-area {
+    margin-top: 30px;
+  }
 }
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+  img.hero-style-img-4,
+  .section-image,
+  .proloy-work-education-resume-bg-img1 {
+    display: none;
+  }
 
-    img.hero-style-img-4,
-    .section-image,
-    .proloy-work-education-resume-bg-img1 {
-        display: none;
-    }
+  img.hero-style-img-3 {
+    right: 0;
+  }
 
-    img.hero-style-img-3 {
-        right: 0;
-    }
+  .proloy-hero-content-wrape h1 {
+    font-size: 85px;
+  }
 
-    .proloy-hero-content-wrape h1 {
-        font-size: 85px;
-    }
+  ul.hero-personal-info-wrape {
+    left: 30px;
+  }
 
-    ul.hero-personal-info-wrape {
-        left: 30px;
-    }
+  .proloy-language-wrape {
+    padding-right: 70px;
+  }
 
-    .proloy-language-wrape {
-        padding-right: 70px;
-    }
+  .proloy-about-para-sign-wrape,
+  .proloy-about-progress-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-about-para-sign-wrape,
-    .proloy-about-progress-wrape {
-        margin-top: 30px;
-    }
+  .proloy-work-education-resume-bg-img2 {
+    width: 100%;
+    height: 85%;
+  }
 
-    .proloy-work-education-resume-bg-img2 {
-        width: 100%;
-        height: 85%;
-    }
+  .single-portfolio-item {
+    height: 350px;
+  }
 
-    .single-portfolio-item {
-        height: 350px;
-    }
+  .videos-content-wrape h3 {
+    font-size: 28px;
+  }
 
-    .videos-content-wrape h3 {
-        font-size: 28px;
-    }
+  .video-content {
+    left: 10%;
+    right: 10%;
+  }
 
-    .video-content {
-        left: 10%;
-        right: 10%;
-    }
+  .popup-video {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    margin-top: 30px;
+  }
 
-    .popup-video {
-        height: 100px;
-        width: 100px;
-        font-size: 40px;
-        line-height: 100px;
-        margin-top: 30px;
-    }
+  .special-bg {
+    height: 690px;
+  }
 
-    .special-bg {
-        height: 690px;
-    }
+  .footer-bg {
+    width: 100%;
+  }
 
-    .footer-bg {
-        width: 100%;
-    }
+  #proloy-map {
+    z-index: 0;
+  }
 
-    #proloy-map {
-        z-index: 0;
-    }
+  .proloy-all-blog-list-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-all-blog-list-wrape {
-        margin-top: 30px;
-    }
-
-    .proloy-contact-form-area {
-        margin-top: 30px;
-    }
-
+  .proloy-contact-form-area {
+    margin-top: 30px;
+  }
+  .mobile-pic {
+    max-height: 300px;
+  }
 }
 
 /* small mobile (XS) :320px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  img.hero-style-img-4,
+  .section-image,
+  .proloy-work-education-resume-bg-img1 {
+    display: none;
+  }
 
-    img.hero-style-img-4,
-    .section-image,
-    .proloy-work-education-resume-bg-img1 {
-        display: none;
-    }
+  img.hero-style-img-3 {
+    right: 0;
+  }
 
-    img.hero-style-img-3 {
-        right: 0;
-    }
+  .proloy-hero-content-wrape h1 {
+    font-size: 85px;
+  }
 
-    .proloy-hero-content-wrape h1 {
-        font-size: 85px;
-    }
+  ul.hero-personal-info-wrape {
+    left: 30px;
+  }
 
-    ul.hero-personal-info-wrape {
-        left: 30px;
-    }
+  .proloy-language-wrape {
+    padding-right: 70px;
+  }
 
-    .proloy-language-wrape {
-        padding-right: 70px;
-    }
+  .proloy-about-para-sign-wrape,
+  .proloy-about-progress-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-about-para-sign-wrape,
-    .proloy-about-progress-wrape {
-        margin-top: 30px;
-    }
+  .proloy-work-education-resume-bg-img2 {
+    width: 100%;
+    height: 85%;
+  }
 
-    .proloy-work-education-resume-bg-img2 {
-        width: 100%;
-        height: 85%;
-    }
+  .single-portfolio-item {
+    height: 350px;
+  }
 
-    .single-portfolio-item {
-        height: 350px;
-    }
+  .proloy-single-team-wrape {
+    display: flow-root;
+  }
 
-    .proloy-single-team-wrape {
-        display: flow-root;
-    }
+  .videos-content-wrape h3 {
+    font-size: 28px;
+  }
 
-    .videos-content-wrape h3 {
-        font-size: 28px;
-    }
+  .video-content {
+    left: 10%;
+    right: 10%;
+  }
 
-    .video-content {
-        left: 10%;
-        right: 10%;
-    }
+  .popup-video {
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    line-height: 70px;
+    margin-top: 10px;
+  }
 
-    .popup-video {
-        height: 70px;
-        width: 70px;
-        font-size: 30px;
-        line-height: 70px;
-        margin-top: 10px;
-    }
+  .special-bg {
+    height: 690px;
+  }
 
-    .special-bg {
-        height: 690px;
-    }
+  .footer-bg {
+    width: 100%;
+  }
 
-    .footer-bg {
-        width: 100%;
-    }
+  #proloy-map {
+    z-index: 0;
+  }
 
-    #proloy-map {
-        z-index: 0;
-    }
+  .proloy-all-blog-list-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-all-blog-list-wrape {
-        margin-top: 30px;
-    }
-
-    .proloy-contact-form-area {
-        margin-top: 30px;
-    }
-
+  .proloy-contact-form-area {
+    margin-top: 30px;
+  }
+  .mobile-pic {
+    max-height: 300px;
+  }
 }
 
 /* SM Device :480px. */
 @media (min-width: 361px) and (max-width: 575px) {
+  .section-image,
+  img.hero-style-img-3,
+  img.hero-style-img-4,
+  ul.header-top-social-wrape,
+  .videos-content-wrape h3,
+  .video-content p,
+  .proloy-work-education-resume-bg-img1 {
+    display: none;
+  }
 
-    .section-image,
-    img.hero-style-img-3,
-    img.hero-style-img-4,
-    ul.header-top-social-wrape,
-    .videos-content-wrape h3,
-    .video-content p,
-    .proloy-work-education-resume-bg-img1 {
-        display: none;
-    }
+  .proloy-hero-content-wrape h1 {
+    font-size: 48px;
+  }
 
-    .proloy-hero-content-wrape h1 {
-        font-size: 48px;
-    }
+  .proloy-hero-content-wrape .hero-desig-title {
+    font-size: 24px;
+  }
 
-    .proloy-hero-content-wrape .hero-desig-title {
-        font-size: 24px;
-    }
+  ul.hero-personal-info-wrape {
+    left: 30px;
+    bottom: 10px;
+    display: block !important;
+  }
 
-    ul.hero-personal-info-wrape {
-        left: 30px;
-        bottom: 10px;
-        display: block !important;
-    }
+  .proloy-about-btn {
+    display: block !important;
+  }
 
-    .proloy-about-btn {
-        display: block !important;
-    }
+  ul.social-wrape {
+    margin-top: 20px;
+  }
 
-    ul.social-wrape {
-        margin-top: 20px;
-    }
+  ul.hero-personal-info-wrape li {
+    display: inline-block;
+  }
 
-    ul.hero-personal-info-wrape li {
-        display: inline-block;
-    }
+  .proloy-language-wrape {
+    padding-right: 70px;
+  }
 
-    .proloy-language-wrape {
-        padding-right: 70px;
-    }
+  .proloy-about-para-sign-wrape,
+  .proloy-about-progress-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-about-para-sign-wrape,
-    .proloy-about-progress-wrape {
-        margin-top: 30px;
-    }
+  ul.proloy-about-resume-wrape li,
+  .single-progress-wrape {
+    display: block !important;
+  }
 
-    ul.proloy-about-resume-wrape li,
-    .single-progress-wrape {
-        display: block !important;
-    }
+  .proloy-about-progress-wrape .single-progress-wrape:nth-child(even) {
+    margin-left: 30px;
+  }
 
-    .proloy-about-progress-wrape .single-progress-wrape:nth-child(even) {
-        margin-left: 30px;
-    }
+  .single-progress-content {
+    width: 100%;
+    margin: 30px 0 0 0 !important;
+  }
 
-    .single-progress-content {
-        width: 100%;
-        margin: 30px 0 0 0 !important;
-    }
+  ul.contant-info-content-wrape li,
+  ul.proloy-work-resume-content li {
+    display: block !important;
+  }
 
-    ul.contant-info-content-wrape li,
-    ul.proloy-work-resume-content li {
-        display: block !important;
-    }
+  .contant-info-content-title,
+  .proloy-work-education-title-web h4 {
+    margin: 15px 0;
+  }
 
-    .contant-info-content-title,
-    .proloy-work-education-title-web h4 {
-        margin: 15px 0;
-    }
+  .contant-info-content,
+  .contant-info-content-icon,
+  .contant-info-content-title,
+  .about-resume-icon,
+  .about-resume-info,
+  .about-resume-title {
+    width: 100%;
+    display: block;
+  }
 
-    .contant-info-content,
-    .contant-info-content-icon,
-    .contant-info-content-title,
-    .about-resume-icon,
-    .about-resume-info,
-    .about-resume-title {
-        width: 100%;
-        display: block;
-    }
+  .proloy-work-education-resume-bg-img2 {
+    width: 100%;
+    height: 85%;
+  }
 
-    .proloy-work-education-resume-bg-img2 {
-        width: 100%;
-        height: 85%;
-    }
+  .single-portfolio-item {
+    height: 350px;
+  }
 
-    .single-portfolio-item {
-        height: 350px;
-    }
+  .proloy-single-team-wrape {
+    display: flow-root;
+  }
 
-    .proloy-single-team-wrape {
-        display: flow-root;
-    }
+  .video-content {
+    left: 10%;
+    right: 10%;
+  }
 
-    .video-content {
-        left: 10%;
-        right: 10%;
-    }
+  .popup-video {
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    line-height: 70px;
+    margin-top: 10px;
+  }
 
-    .popup-video {
-        height: 70px;
-        width: 70px;
-        font-size: 30px;
-        line-height: 70px;
-        margin-top: 10px;
-    }
+  .special-bg {
+    height: 690px;
+  }
 
-    .special-bg {
-        height: 690px;
-    }
+  .footer-bg {
+    width: 100%;
+  }
 
-    .footer-bg {
-        width: 100%;
-    }
+  #proloy-map {
+    z-index: 0;
+  }
 
-    #proloy-map {
-        z-index: 0;
-    }
+  .proloy-all-blog-list-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-all-blog-list-wrape {
-        margin-top: 30px;
-    }
-
-    .proloy-contact-form-area {
-        margin-top: 30px;
-    }
-
+  .proloy-contact-form-area {
+    margin-top: 30px;
+  }
+  .mobile-pic {
+    max-height: 300px;
+  }
 }
 
 /* SM Device :480px. */
 @media (max-width: 360px) {
-    .section-image,
-    img.hero-style-img-3,
-    img.hero-style-img-4,
-    ul.header-top-social-wrape,
-    .videos-content-wrape h3,
-    .video-content p,
-    .proloy-work-education-resume-bg-img1 {
-        display: none;
-    }
+  .section-image,
+  img.hero-style-img-3,
+  img.hero-style-img-4,
+  ul.header-top-social-wrape,
+  .videos-content-wrape h3,
+  .video-content p,
+  .proloy-work-education-resume-bg-img1 {
+    display: none;
+  }
 
-    .proloy-hero-content-wrape h1 {
-        font-size: 48px;
-    }
+  .proloy-hero-content-wrape h1 {
+    font-size: 48px;
+  }
 
-    .proloy-hero-content-wrape .hero-desig-title {
-        font-size: 24px;
-    }
+  .proloy-hero-content-wrape .hero-desig-title {
+    font-size: 24px;
+  }
 
-    ul.hero-personal-info-wrape {
-        left: 30px;
-        bottom: 10px;
-        display: block !important;
-    }
+  ul.hero-personal-info-wrape {
+    left: 30px;
+    bottom: 10px;
+    display: block !important;
+  }
 
-    .proloy-about-btn {
-        display: block !important;
-    }
+  .proloy-about-btn {
+    display: block !important;
+  }
 
-    ul.social-wrape {
-        margin-top: 20px;
-    }
+  ul.social-wrape {
+    margin-top: 20px;
+  }
 
-    ul.hero-personal-info-wrape li {
-        display: inline-block;
-    }
+  ul.hero-personal-info-wrape li {
+    display: inline-block;
+  }
 
-    .proloy-language-wrape {
-        padding-right: 70px;
-    }
+  .proloy-language-wrape {
+    padding-right: 70px;
+  }
 
-    .proloy-about-para-sign-wrape,
-    .proloy-about-progress-wrape {
-        margin-top: 30px;
-    }
+  .proloy-about-para-sign-wrape,
+  .proloy-about-progress-wrape {
+    margin-top: 30px;
+  }
 
-    ul.proloy-about-resume-wrape li,
-    .single-progress-wrape {
-        display: block !important;
-    }
+  ul.proloy-about-resume-wrape li,
+  .single-progress-wrape {
+    display: block !important;
+  }
 
-    .proloy-about-progress-wrape .single-progress-wrape:nth-child(even) {
-        margin-left: 30px;
-    }
+  .proloy-about-progress-wrape .single-progress-wrape:nth-child(even) {
+    margin-left: 30px;
+  }
 
-    .single-progress-content {
-        width: 100%;
-        margin: 30px 0 0 0 !important;
-    }
+  .single-progress-content {
+    width: 100%;
+    margin: 30px 0 0 0 !important;
+  }
 
-    ul.contant-info-content-wrape li,
-    ul.proloy-work-resume-content li {
-        display: block !important;
-    }
+  ul.contant-info-content-wrape li,
+  ul.proloy-work-resume-content li {
+    display: block !important;
+  }
 
-    .contant-info-content-title,
-    .proloy-work-education-title-web h4 {
-        margin: 15px 0;
-    }
+  .contant-info-content-title,
+  .proloy-work-education-title-web h4 {
+    margin: 15px 0;
+  }
 
-    .contant-info-content,
-    .contant-info-content-icon,
-    .contant-info-content-title,
-    .about-resume-icon,
-    .about-resume-info,
-    .about-resume-title {
-        width: 100%;
-        display: block;
-    }
+  .contant-info-content,
+  .contant-info-content-icon,
+  .contant-info-content-title,
+  .about-resume-icon,
+  .about-resume-info,
+  .about-resume-title {
+    width: 100%;
+    display: block;
+  }
 
-    .proloy-work-education-resume-bg-img2 {
-        width: 100%;
-        height: 85%;
-    }
+  .proloy-work-education-resume-bg-img2 {
+    width: 100%;
+    height: 85%;
+  }
 
-    .single-portfolio-item {
-        height: 350px;
-    }
+  .single-portfolio-item {
+    height: 350px;
+  }
 
-    .proloy-single-team-wrape {
-        display: flow-root;
-    }
+  .proloy-single-team-wrape {
+    display: flow-root;
+  }
 
-    .video-content {
-        left: 10%;
-        right: 10%;
-    }
+  .video-content {
+    left: 10%;
+    right: 10%;
+  }
 
-    .popup-video {
-        height: 70px;
-        width: 70px;
-        font-size: 30px;
-        line-height: 70px;
-        margin-top: 10px;
-    }
+  .popup-video {
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    line-height: 70px;
+    margin-top: 10px;
+  }
 
-    .special-bg {
-        height: 690px;
-    }
+  .special-bg {
+    height: 690px;
+  }
 
-    .footer-bg {
-        width: 100%;
-    }
+  .footer-bg {
+    width: 100%;
+  }
 
-    #proloy-map {
-        z-index: 0;
-    }
+  #proloy-map {
+    z-index: 0;
+  }
 
-    .proloy-all-blog-list-wrape {
-        margin-top: 30px;
-    }
+  .proloy-all-blog-list-wrape {
+    margin-top: 30px;
+  }
 
-    .proloy-contact-form-area {
-        margin-top: 30px;
-    }
-
+  .proloy-contact-form-area {
+    margin-top: 30px;
+  }
+  .mobile-pic {
+    max-height: 300px;
+  }
 }
