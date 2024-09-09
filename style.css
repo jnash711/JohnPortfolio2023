@@ -204,6 +204,15 @@ label {
   top: -60%;
 }
 
+.video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+}
 /* preloader area css */
 
 .preloader {
@@ -644,6 +653,26 @@ img.hero-style-img-4 {
   z-index: -1;
 }
 
+.skill-wrapper {
+  background: blue;
+  height: 100%;
+}
+.skill-container {
+  padding: 20%;
+  display: flex;
+  justify-content: center;
+}
+.skillindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 20px;
+}
+.fa-brands {
+  padding: 10px;
+}
 /* about area css */
 ul.social-wrape {
 }
